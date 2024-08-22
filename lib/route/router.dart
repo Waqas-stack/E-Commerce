@@ -201,7 +201,7 @@ Route<dynamic> generateRoute(RouteSettings settings) {
     //   );
     case userInfoScreenRoute:
       return MaterialPageRoute(
-        builder: (context) => const UserInfoScreen(),
+        builder: (context) =>  UserInfoScreen(),
       );
     // case currentPasswordScreenRoute:
     //   return MaterialPageRoute(

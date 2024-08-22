@@ -48,6 +48,7 @@ class _BannerMWithCounterState extends State<BannerMWithCounter> {
   @override
   Widget build(BuildContext context) {
     return BannerM(
+
       image: widget.image,
       press: widget.press,
       children: [
